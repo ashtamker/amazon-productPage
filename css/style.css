@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 header {
     display: flex;
     width: 100vw;
@@ -23,11 +24,11 @@ header {
 
 .main-left {
     height: 100%;
-    width: auto;
+    width: 50%;
     display: inline-block flex;
 
-   
 }
+
 
 .main-left .logo {
     background: url('../img/amazon_logo.png');
@@ -47,12 +48,19 @@ header {
     display: block;
 }
 
+
 .main-fill {
     height: 100%;
-    width: auto;
-    display: inline-block;
+    width: 60%;
+    display: inline-block flex;
     border: 1px solid snow;
 }
+.main-fill .all {
+    height: 40px;
+    width: 40px;
+    display: block;
+}
+
 .main-right {
     height: 100%;
     width: auto;
@@ -337,4 +345,113 @@ th {
 .shipping-info .buy {
     background-color:#E89834;
     border: 0.5px solid black;
+}
+
+.similar-item {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+
+    
+
+}
+
+
+.img-similar {
+    height: 170px;
+    width: 180px;
+    margin: 5px 30px;
+    
+}
+
+.sim1 {
+    background-image: url('https://static1.funidelia.com/301994-f6_big2/funko-pop-hlq-hnwqmym-endgame.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sim2 {
+    background-image: url('https://ypk.cs4u.co.il/Images/9G/NKFT71/513/560X500_0_jpg?ud=637363862759770000');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sim3 {
+    background-image: url('https://m.media-amazon.com/images/I/51DEH88hJ0L._AC_SX679_.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sim4 {
+    background-image: url('https://funpo.co.il/images/thumbs/0001683_funko-pop-i-am-iron-man-avengers-580-_625.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sim5 {
+    background-image: url('https://sahek-ota.co.il/media/catalog/product/cache/10/image/620x/602f0fa2c1f0d1ba5e241f914e856ff9/p/o/pop_deadpool_-_sahek_ota.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sim6 {
+    background-image: url('https://sahek-ota.co.il/media/catalog/product/cache/10/small_image/385x/602f0fa2c1f0d1ba5e241f914e856ff9/p/o/pop_651_dr_strange.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sim7 {
+    background-image: url('https://wibow.co.il/wp-content/uploads/2019/11/1436_3266_5861_HP_Voldemort_hires.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.similar-page {
+    position: absolute;
+    right: 20px;
+    top: -50px;
+    font-size: 12px;
+}
+
+.similar-opt {
+    position: absolute;
+    left: 0px;
+    top: -50px;
+    font-size: 18px;
+    color: #e47911;
+    font-weight: bold;
+}
+
+.arrow {
+    border: solid #232F3E;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+} 
+
+.arrow-btn {
+   height: 40px;
+   width: 45px; 
+   border:1px solid gray;
+   cursor: pointer;
+   
+   
 }
